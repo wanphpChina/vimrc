@@ -253,9 +253,6 @@ if g:isWIN
 elseif g:isMAC
     colorscheme molokai
     set guifont=Monaco:h14
-else
-    colorscheme molokai
-    set guifont=Monaco\ 11
 endif
 
 
@@ -350,7 +347,7 @@ endf
 
 
 " 加载pathogen插件管理器
-execute pathogen#infect()
+"execute pathogen#infect()
 
 
 " 针对部分语言加减指定字符的单词属性
@@ -572,12 +569,13 @@ let g:airline_powerline_fonts = 0              " 关闭自定义字体
 
 " Promptline          终端辅助工具
 let g:promptline_powerline_symbols = 0         " 关闭特殊符号
-let g:promptline_preset = {
-            \'a'    : [ '\u' ],
-            \'b'    : [ '\W' ],
-            \'c'    : [ promptline#slices#vcs_branch(), promptline#slices#git_status() ],
-            \'warn' : [ promptline#slices#last_exit_code() ]
-            \}                                 " 自定义命令行显示
+" 自定义命令行显示
+"let g:promptline_preset = {
+"            \'a'    : [ '\u' ],
+"            \'b'    : [ '\W' ],
+"            \'c'    : [ promptline#slices#vcs_branch(), promptline#slices#git_status() ],
+"            \'warn' : [ promptline#slices#last_exit_code() ]
+"            \}
 
 " GitGutter           Git辅助插件
 let g:gitgutter_enabled               = 0      " 默认不开启
