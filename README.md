@@ -10,7 +10,7 @@
 
 #### Windows
 
-1. 访问 `http://www.vim.org/download.php#pc` 下载最新的 gVim [如无法访问该网站，可上 `http://vim.wendal.net/download.php#pc` 下载]
+1. 访问 `http://www.vim.org/download.php#ac123` 下载最新的 gVim [如无法访问该网站，可上 `http://vim.wendal.net/download.php#pc` 下载]
 2. 安装 gVim 到任意目录，这儿为方便讲解，我假定你安装到了 `D:\Apps\Vim`
 3. 将 `D:\Apps\Vim\vim74` 加入 path 环境变量 [不知何为环境变量者，请求助于搜索引擎]
 4. 删除 Vim 安装目录下的 vimfiles 目录以及 _vimrc 文件 [如果你自己修改过配置，请注意备份]
